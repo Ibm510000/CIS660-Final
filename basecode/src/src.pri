@@ -22,6 +22,8 @@ SOURCES += \
     $$PWD/openglcontext.cpp
 
 HEADERS += \
+    $$PWD/clusterStructure/TextureStructure.h \
+    $$PWD/clusterStructure/computeHelper.h \
     $$PWD/la.h \
     $$PWD/mainwindow.h \
     $$PWD/mygl.h \
