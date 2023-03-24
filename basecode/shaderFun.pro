@@ -1,4 +1,4 @@
-QT += core widgets
+QT += core widgets opengl openglwidgets
 
 TARGET = ShaderFun
 TEMPLATE = app
