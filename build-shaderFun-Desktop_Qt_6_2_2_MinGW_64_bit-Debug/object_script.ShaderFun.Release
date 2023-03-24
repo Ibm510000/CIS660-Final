@@ -8,7 +8,6 @@ release/quad.o
 release/shaderprogram.o
 release/postprocessshader.o
 release/surfaceshader.o
-release/texture.o
 release/camera.o
 release/tiny_obj_loader.o
 release/mesh.o

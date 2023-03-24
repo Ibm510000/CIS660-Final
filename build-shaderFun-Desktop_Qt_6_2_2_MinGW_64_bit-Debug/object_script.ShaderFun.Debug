@@ -8,7 +8,6 @@ debug/quad.o
 debug/shaderprogram.o
 debug/postprocessshader.o
 debug/surfaceshader.o
-debug/texture.o
 debug/camera.o
 debug/tiny_obj_loader.o
 debug/mesh.o
