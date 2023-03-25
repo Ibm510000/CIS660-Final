@@ -3,6 +3,8 @@ DEPENDPATH += $$PWD
 
 SOURCES += \
     $$PWD/clusterStructure/TextureStructure.cpp \
+    $$PWD/clusterStructure/cluster.cpp \
+    $$PWD/clusterStructure/image_data.cpp \
     $$PWD/main.cpp \
     $$PWD/mainwindow.cpp \
     $$PWD/mygl.cpp \
@@ -23,7 +25,9 @@ SOURCES += \
 
 HEADERS += \
     $$PWD/clusterStructure/TextureStructure.h \
+    $$PWD/clusterStructure/cluster.h \
     $$PWD/clusterStructure/computeHelper.h \
+    $$PWD/clusterStructure/image_data.h \
     $$PWD/la.h \
     $$PWD/mainwindow.h \
     $$PWD/mygl.h \
