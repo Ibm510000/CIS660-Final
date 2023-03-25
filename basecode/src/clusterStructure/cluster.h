@@ -27,10 +27,11 @@ struct sample{
 class cluster{
 private:
     int id=0;
-    std::vector<sample> sample_list;
+
 
 public:
     cluster();
+    std::vector<vec2> sample_list;
 
     void sample_cluster();
 

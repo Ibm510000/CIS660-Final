@@ -13,7 +13,7 @@ class image_data
 private:
     // one tage one cluster, using
     float neighbor_r;
-    std::vector<std::unique_ptr<cluster>> cluster_data;
+    std::unordered_map<int,std::unique_ptr<cluster>> cluster_data;
 
     std::unordered_map<int,std::unique_ptr<sample>> sample_data;
 
@@ -31,7 +31,8 @@ public:
 
     float calculate_distance(sample* nSo, sample* nS1);
 
-    float calculate_sampleSimilarity();
+
+    std::vector<int> histogram_distribution(vec2 input, cluster* cluster);
 
 
 
